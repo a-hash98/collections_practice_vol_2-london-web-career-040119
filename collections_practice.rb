@@ -36,6 +36,8 @@ def merge_data(keys,data)
   end
 end
 
+def organize_schools()
+
 def find_cool(cool)
   cool.select{|i| i[:temperature] == "cool"}
 end
