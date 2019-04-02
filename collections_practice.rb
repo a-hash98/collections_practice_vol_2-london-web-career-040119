@@ -22,7 +22,7 @@ def count_elements(arr)
   #  arr2.push(i)
   #  arr2.push(i[:count] = arr.count(i))
   #end
-  arr.select{|i| i[:count] = arr.count(i)}
+  arr2 = arr.select{|i| i[:count] = arr.count(i)}
   r_arr = arr2.uniq.select{|i| i.class != Integer}
   r_arr.slice!(1)
   return r_arr
