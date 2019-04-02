@@ -44,10 +44,6 @@ def merge_data(keys,data)
       new_merged[i] == i.value
     end
   end
-
-
-
-
 end
 
 def find_cool(cool)
