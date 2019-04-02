@@ -34,16 +34,6 @@ def merge_data(keys,data)
   keys.zip(data).each do |k,d|
     merged[k] = d
   end
-  for i in merged[1]
-    if i.value == "Ashley"
-      new_merged[i] == i.value
-    end
-  end
-  for i in merged[1]
-    if i.value == "Ashley"
-      new_merged[i] == i.value
-    end
-  end
 end
 
 def find_cool(cool)
